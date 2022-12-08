@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" type="application/javascript" defer></script>
+  </head>
+  <body>
+    <h2>Search</h2>
+    <input type="search" oninput="filterSelection()" />
+    <div class="select-options">
+      <select onchange="filterSelection()">
+        <option>Shipe-type</option>
+        <option value="greek-shipe">shipe-1</option>
+        <option value="egypt-shipe">shipe-2</option>
+        <option value="portugal-shipe">shipe-3</option>
+      </select>
+      <select onchange="filterSelection()">
+        <option>Flag</option>
+        <option value="greek-flag">flag-1</option>
+        <option value="egypt-flag">flag-2</option>
+        <option value="portogal-flag">flag-3</option>
+      </select>
+      <select onchange="filterSelection()">
+        <option>Capacity</option>
+        <option value="greek-capacity">capacity-1</option>
+        <option value="egypt-capacity">capacity-2</option>
+        <option value="portogal-capacity">capacity-3</option>
+      </select>
+      <select onchange="filterSelection()">
+        <option>Country</option>
+        <option value="greek-country">country-1</option>
+        <option value="egypt-country">country-2</option>
+        <option value="portogal-country">country-3</option>
+      </select>
+    </div>
+    <div class="container">
+      <img data-ship="greek-shipe greek-flag" src="./img/shipe-1.jpeg" />
+      <img data-ship="greek-shipe greek-flag" src="./img/shipe-2.jpeg" />
+      <img data-ship="greek-shipe greek-flag" src="./img/shipe-3.jpeg" />
+      <img data-ship="greek-shipe greek-flag" src="./img/shipe-4.jpeg" />
+      <img data-ship="egypt-shipe egypt-flag" src="./img/shipe-5.jpeg" />
+      <img data-ship="egypt-shipe egypt-flag" src="./img/shipe-6.jpeg" />
+      <img data-ship="egypt-shipe egypt-flag" src="./img/shipe-7.jpeg" />
+      <img data-ship="egypt-shipe egypt-flag" src="./img/shipe-8.jpeg" />
+      <img data-ship="portugal-shipe portogal-flag" src="./img/shipe-9.jpeg" />
+      <img data-ship="portugal-shipe portogal-flag" src="./img/shipe-10.jpeg" />
+      <img data-ship="portugal-shipe portogal-flag" src="./img/shipe-11.jpeg" />
+      <img data-ship="portugal-shipe portogal-flag" src="./img/shipe-12.jpeg" />
+    </div>
+  </body>
+</html>

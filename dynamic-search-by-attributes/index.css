@@ -1,0 +1,19 @@
+.select-options {
+  display: flex;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 830px;
+}
+
+img {
+  display: none;
+  width: 200px;
+  height: 200px;
+}
